@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" draggable="false">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matter.js learning</title>
 </head>
-<body>
+<body draggable="false">
     
     <script src="node_modules/matter-js/build/matter.min.js"></script>
+
+    <div id="container" style="width: 40vw; height: 50vh; background-color: #eee; position: relative;" draggable="false">
+        <div id="boxA" style="position: absolute; aspect-ratio: 1/1; width: 80px; height: 80px; background-color: #00f; left: 50px; top: 50px;" draggable="false"></div>
+
+    </div>
+    <script>
+        document.addEventListener('dragstart', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
     <script src="index.js"></script>
 </body>
 </html>
