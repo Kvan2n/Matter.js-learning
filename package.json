@@ -1,0 +1,24 @@
+{
+  "name": "matter.js-learning",
+  "version": "1.0.0",
+  "description": "learning matter.js",
+  "homepage": "https://github.com/Kvan2n/Matter.js-learning#readme",
+  "bugs": {
+    "url": "https://github.com/Kvan2n/Matter.js-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kvan2n/Matter.js-learning.git"
+  },
+  "license": "ISC",
+  "author": "kvan2n",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "matter-js": "^0.20.0"
+  },
+  "devDependencies": {}
+}
